@@ -1,12 +1,13 @@
 module.exports = {
-  user: 'remoteUser',
-  host: 'remoteHost',
-  srcPath: 'Source path',
-  destPath: 'Destination path',
-  exclude: [
+  user: 'remoteUser', // remote user name
+  hosts: ['remoteHost'], // remote hosts
+  sshKeyPath: 'key path', // ssh key path
+  srcPath: 'Source path', // source path
+  destPath: 'Destination path', // remote path
+  exclude: [ // exclude files or paths
     'node_modules'
   ],
-  commands: [
+  commands: [ // shell commands
     'ls -al'
   ]
 };

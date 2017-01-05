@@ -51,7 +51,7 @@ function watchFiles() {
         return Promise.resolve();
       })
       .then((commandResult) => {
-        console.log(commandResult);
+        commandResult.forEach(c => console.log(c));
         syncEnd();
       })
       .catch((err) => {
