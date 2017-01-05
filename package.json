@@ -1,0 +1,35 @@
+{
+  "name": "folder-sync",
+  "version": "1.0.0",
+  "description": "Sync folder to other servers by rsync and send shell command after sync",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mike1pol/folderSync.git"
+  },
+  "keywords": [
+    "sync",
+    "rsync",
+    "ssh",
+    "shell"
+  ],
+  "author": "Mikhail Poluboyarinov <mikle.sol@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mike1pol/folderSync/issues"
+  },
+  "homepage": "https://github.com/mike1pol/folderSync#readme",
+  "dependencies": {
+    "rsync": "^0.6.0",
+    "ssh2": "^0.5.4"
+  },
+  "devDependencies": {
+    "eslint": "^3.12.2",
+    "eslint-config-airbnb-base": "^11.0.0",
+    "eslint-plugin-import": "^2.2.0"
+  }
+}
